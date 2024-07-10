@@ -16,5 +16,10 @@ console.log(score);
  * 3) Assign your variable a value.
  *
  * 4) Use console.log to display your variable on the console.
- *
+ * 
  */
+var score;
+score = 150;
+var score2;
+score2 = 200;
+console.log(score2);
