@@ -22,3 +22,22 @@ book = {
  *    The book object should be displayed.
  *
  */
+
+
+var book;
+
+
+book = {
+    title : "The Hobbit"
+};
+
+console.log(book);
+
+
+var book2;
+
+book2 = {
+     titlt : "the pitch"
+};
+
+console.log(book2);
