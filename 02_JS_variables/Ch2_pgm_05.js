@@ -25,3 +25,13 @@ console.log(message);
  *    Be careful to use matching speech marks.
  *
  */
+var message;
+
+message = "Hi " + "Earth!";
+console.log(message);
+
+message = "Congratulations!" + " Your tweet has " + " won a prize... ";
+console.log(message);
+
+message = "I am VIMAL";
+console.log(message);
