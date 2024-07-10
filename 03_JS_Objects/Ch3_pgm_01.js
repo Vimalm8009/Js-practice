@@ -23,3 +23,15 @@ console.log(bookTitle + " by " + bookAuthor);
  *    For 100 books.
  *
  */
+var bookTitle;
+var bookAuthor;
+
+bookTitle = "The Hobbit";
+bookAuthor = "J. R. R. Tolkien";
+
+console.log(bookTitle + " by " + bookAuthor);
+
+book2 = "The Hobbit";
+author = "M . Vimal";
+ 
+console.log(book2 + " by " + author);
