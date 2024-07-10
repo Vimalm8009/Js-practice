@@ -23,3 +23,22 @@ console.log(book);
  * 3) Log book2 to the console.
  *
  */
+
+var book;
+var book2;
+
+book = {
+    title : "The Hobbit",
+    author : "J. R. R. Tolkien",
+    published : 1937
+};
+
+console.log(book);
+
+book2 = {
+    title : " the pitch",
+    author : " sotta santhosh",
+    published : 2024
+};
+
+console.log(book2);
