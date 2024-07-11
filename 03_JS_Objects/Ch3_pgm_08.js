@@ -1,6 +1,7 @@
 // Using dot notation to access property values
 
 var book;
+var book2;
 
 book = {
   title     : "The Hobbit",
@@ -10,6 +11,17 @@ book = {
 
 console.log(book.title);
 console.log(book.author);
+console.log(book.published);
+
+book2 = {
+	title : " the pitch",
+	author: " vimal.v.m",
+	published : "2024"
+}
+
+console.log(book2.title);
+console.log(book2.author);
+console.log(book2.published);
 
 
 
