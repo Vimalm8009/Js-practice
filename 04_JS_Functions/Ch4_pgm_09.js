@@ -31,3 +31,23 @@ showMovieInfo = function () {
  *    Is the output as expected?
  *
  */
+
+
+var showMovieInfo;
+var movie;
+
+movie = {
+    title: "border gavasaker trophy",
+    actors: "indians",
+    directors: "jay shah"
+};
+
+showMovieInfo = function () {
+  console.log("Movie information for " + movie.title);
+  console.log("------------------------------");
+  console.log("Actors: " + movie.actors);
+  console.log("Directors: " + movie.directors);
+  console.log("------------------------------");
+};
+
+showMovieInfo();
