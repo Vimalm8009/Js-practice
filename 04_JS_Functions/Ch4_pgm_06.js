@@ -25,3 +25,24 @@ sayHello();
  *    of "Hello World!" one by one down the page
  *
  */
+
+
+var sayHello;
+
+sayHello = function () {
+	console.log("Hi Earth!");
+};
+
+sayHello();
+sayHello();	
+sayHello();
+
+var print;
+
+print = function() {
+	console.log("H\ne\nl\nl\no\nW\no\nr\nl\nd")
+};
+
+print();
+
+
