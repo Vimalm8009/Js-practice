@@ -41,3 +41,36 @@ showMovieInfo();
  *    What happens when you call showMovieInfo now?
  *
  */
+
+// Calling the showMovieInfo function
+
+var movie1;
+var showMovieInfo;
+var movie;
+
+movie1 = {
+    title: "Inside Out",
+    actors: "Amy Poehler, Bill Hader",
+    directors: "Pete Doctor, Ronaldo Del Carmen"
+};
+
+movie2 = {
+  title: "Titanic",
+  actors: "Will Smith",
+  directors: "Lokesh Kanagaraj"
+};
+
+showMovieInfo = function () {
+  console.log("Movie information for " + movie.title);
+  console.log("------------------------------");
+  console.log("Actors: " + movie.actors);
+  console.log("Directors: " + movie.directors);
+  console.log("------------------------------");
+};
+
+movie = movie2;
+
+
+
+showMovieInfo();
+
