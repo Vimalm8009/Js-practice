@@ -24,3 +24,11 @@ showPlayerPlace("Dax", "The Old Library");
  *    number to 3? Why?
  *
  */
+var showPlayerPlace;
+
+showPlayerPlace = function (playerName, playerPlace) {
+    console.log(playerName[3] + " is in " + playerPlace);
+};
+
+showPlayerPlace("Kandra", "The Dungeon of Doom");
+showPlayerPlace("Dax", "The Old Library");
