@@ -35,3 +35,13 @@ console.log(getHelloTo("Dax"));
  *    Does it still work?
  *
  */
+var getHelloTo;
+
+getHelloTo = function (name) {
+    var template = "Hello to {{name}}";
+    template = template.replace("{{name}}",name);
+    return template;
+};
+
+console.log(getHelloTo("david wanwer"));
+console.log(getHelloTo("pandhya"));                                         
