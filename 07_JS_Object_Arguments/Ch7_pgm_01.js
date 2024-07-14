@@ -31,3 +31,31 @@ console.log(getPlanetInfo(planet1));
  *    each planet.
  *
  */
+
+var planet1;
+var getPlanetInfo;
+var planet2;
+
+planet1 = {
+    name: "Jupiter",
+    position: 5,
+    type: "Gas Giant",
+    radius: 69911,
+    sizeRank: 1
+};
+
+planet2 = {
+    name: "Mercury",
+    position: 1,
+    type: "Red Giant",
+    radius: 48451,
+    sizeRank: 6
+}
+
+getPlanetInfo = function (planet) {
+    return planet.name + ": planet number " + planet.position + " has radius " + planet.radius + " is " + planet.type;
+};
+
+console.log(getPlanetInfo(planet1));
+
+console.log(getPlanetInfo(planet2));
