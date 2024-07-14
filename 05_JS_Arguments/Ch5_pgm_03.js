@@ -27,3 +27,13 @@ showMessage("It's full of stars!");
  *    message passed in.
  *
  */
+
+var showMessage;
+
+showMessage = function (message) {
+	console.log("The message is: " + message + " by vimal ");
+};
+
+showMessage("It's full of stars!");
+showMessage("It's full of moons!");
+showMessage("It's full of sunlight!");
