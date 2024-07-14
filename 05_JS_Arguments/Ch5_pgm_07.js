@@ -25,3 +25,12 @@ showPlayerName("Dax");
  *    of letters in the player's name.
  *
  */
+var showPlayerName;
+
+showPlayerName = function (playerName) {
+    console.log("The player's name is " + playerName);
+    console.log("The Name length is " + playerName.length);
+};
+
+showPlayerName("ben stokes");
+showPlayerName("ashes");
