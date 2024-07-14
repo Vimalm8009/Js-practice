@@ -33,3 +33,23 @@ console.log(response);
  * 3) Call getMyMessage at the prompt.
  *
  */
+var getMessage;
+var response;
+var getMyMessage;
+
+getMessage = function () {
+    return "I’m going on an avengers!";
+};
+
+response = getMessage();
+
+console.log(response);
+
+getMyMessage = function() {
+    return "I live in new zealand.";
+};
+
+console.log(getMessage());
+
+console.log(getMyMessage());
+
