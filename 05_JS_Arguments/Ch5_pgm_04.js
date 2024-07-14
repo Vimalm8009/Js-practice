@@ -25,3 +25,17 @@ showMessage("Hello to Jason Isaacs and Stephen Fry");
  *    myMessage as the argument.
  *
  */
+var showMessage;
+var myMessage;
+
+myMessage = "I am Vimal";
+
+showMessage = function (message) {
+	console.log("The message is: ");
+	console.log(message);
+};
+
+showMessage("It's full of stars!");
+showMessage("Hello to smith");
+showMessage("Hello to Jason Isaacs and Stephen Fry");
+showMessage(myMessage);
