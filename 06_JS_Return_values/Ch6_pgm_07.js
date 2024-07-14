@@ -45,3 +45,21 @@ console.log(getPlayerName("Kandra"));
  * "
  *
  */
+
+var getPlayerName;
+
+getPlayerName = function (playerName) {
+    return "==== " + playerName + " ====";
+};
+
+console.log(getPlayerName("vimal"));
+
+console.log(getPlayerName("siva"));
+
+console.log(getPlayerName("sreenath"));
+
+getPlayerName = function (playerName) {
+    return "|\n"+"| "+playerName +"\n"+"|\n"
+}
+
+console.log(getPlayerName("sotta"));
