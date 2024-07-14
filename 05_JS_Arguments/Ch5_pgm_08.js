@@ -35,3 +35,26 @@ showPlayerName(player2.name);
  *    name in lower case.
  *
  */
+
+var player1;
+var player2;
+var showPlayerName;
+
+showPlayerName = function (playerName) {
+    console.log(playerName.toLowerCase());
+};
+
+player1 = {
+    name: "ben stokes",
+    place: "England",
+    health: 60
+};
+
+player2 = {
+    name: "smith",
+    place: "Austraila",
+    health: 60
+};
+
+showPlayerName(player1.name);
+showPlayerName(player2.name);
