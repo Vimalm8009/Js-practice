@@ -50,3 +50,46 @@ showPlayerInfo("Dax", "The Old Library", 40);
  *    for logging a blank line to the console.
  *
  */
+var showPlayerInfo;
+var showPlayerName;
+var showPlayerHealth;
+var showPlayerPlace;
+var showLine;
+var showBlankLine;
+
+showLine = function(){
+    console.log("---------------------------------------");
+}
+
+showBlankLine = function(){
+    console.log("");
+}
+
+showPlayerName = function (playerName) {
+    console.log(playerName);
+};
+
+showPlayerHealth = function (playerName, playerHealth) {
+    console.log(playerName + " has health " + playerHealth);
+};
+
+showPlayerPlace = function (playerName, playerPlace) {
+    console.log(playerName + " is in " + playerPlace);
+};
+
+showPlayerInfo = function (playerName, playerPlace, playerHealth) {
+    showBlankLine();
+
+    showPlayerName(playerName);
+
+    showLine();
+
+    showPlayerPlace(playerName, playerPlace);
+    showPlayerHealth(playerName, playerHealth);
+
+    showLine();
+    showBlankLine();
+};
+
+showPlayerInfo("rohit sharma", "The Dungeon of Doom", 50);
+showPlayerInfo("virat kholi", "The Old Library", 40);
