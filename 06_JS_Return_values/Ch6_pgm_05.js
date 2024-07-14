@@ -27,3 +27,13 @@ console.log("$" + totalCost(30, 40, 3));
  *    It should now be $130 for 3 hours.
  *
  */
+var totalCost;
+
+totalCost = function (callOutCharge, costPerHour, numberOfHours, discounts) {
+	return callOutCharge + costPerHour * numberOfHours - discounts;
+};
+
+console.log("$" + totalCost(30, 40, 3,20));
+console.log("$" + totalCost(30,40,12,10));
+
+console.log("$" + totalCost(30,40,3,20));
