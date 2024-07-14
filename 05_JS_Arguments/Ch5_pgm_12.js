@@ -42,3 +42,23 @@ showPlayerPlace(player2.name, player2.place);
  *    to the substring function have?
  *
  */
+
+var player1;
+var player2;
+var showPlayerPlace;
+
+showPlayerPlace = function (playerName, playerPlace) {
+    console.log(playerName.substring(1,3) + " is in " + playerPlace);
+};
+
+player1 = {
+    name: "Kandra",
+    place: "The Dungeon of Doom",
+    health: 50
+};
+
+player2 = {
+    name: "Dax",
+    place: "The Old Library",
+    health: 40
+};
