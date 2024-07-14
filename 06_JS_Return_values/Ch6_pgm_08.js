@@ -32,3 +32,27 @@ console.log(getPlayerPlace("Kandra", "The Dungeon of Doom"));
  *    Dax is in The Bath
  *
  */
+
+var getPlayerHealth;
+var getPlayerPlace;
+var showPlayerInfo;
+
+getPlayerHealth = function (playerName, playerHealth) {
+    return playerName + " has health " + playerHealth;
+};
+
+getPlayerPlace = function (playerName, playerPlace) {
+    return playerName + " is in " + playerPlace;
+};
+
+showPlayerInfo = function (playerName, playerHealth, playerPlace) {
+    var health = getPlayerHealth(playerName,playerHealth);
+    var place = getPlayerPlace(playerName,playerPlace);
+    console.log(health);
+    console.log(place);
+};
+
+console.log(getPlayerHealth("Kandra", 50));
+console.log(getPlayerPlace("Kandra", "The Dungeon of Doom"));
+
+showPlayerInfo("Ram",50,"India");
