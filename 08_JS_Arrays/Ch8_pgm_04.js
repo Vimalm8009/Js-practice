@@ -22,3 +22,23 @@ console.log( days[dayInWeek - 1] );
  *    of the week, and log the value it returns.
  *
  */
+
+var days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
+var dayInWeek = 4;
+
+console.log( days[dayInWeek] );
+console.log( days[dayInWeek - 1] );
+
+dayInWeek = 5;
+
+days.push("Saturday");
+
+console.log( days[dayInWeek]);
+console.log( days[dayInWeek - 1]);
+
+var date = function (dayInWeek){
+    return days[dayInWeek];
+}
+
+var getDay = date(3);
+console.log( "The day is " + getDay);
