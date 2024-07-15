@@ -23,3 +23,17 @@ console.log(names);
  * 4) Log akaScores to the console.
  *
  */
+
+var scores;
+var names;
+var akaScores;
+
+scores = [ 3, 1, 8, 2, 6 ];
+names = [ "smith", "wanwer", "stokes", "abd" ];
+
+akaScores = scores;
+
+console.log(scores);
+console.log(names);
+
+console.log(scores);
